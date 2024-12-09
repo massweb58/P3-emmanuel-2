@@ -1,0 +1,104 @@
+.activities {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.activitiesEngenerale {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 100%;
+}
+
+.activitiesProposer1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.activitiesProposer1 h3 {
+  margin-left: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.elemenActivities {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px 3px 15px 0px #0000001a;
+  padding-bottom: 15px;
+}
+.elemenActivities h3 {
+  margin-left: 20px;
+}
+
+.activitiesProposer1 img {
+  object-fit: cover;
+  width: 100%;
+  height: 380px;
+  gap: 0px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.elemenActivities {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px 3px 15px 0px #0000001a;
+}
+
+.activitiesProposer1 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 380px;
+  border-radius: 20px 20px 0 0;
+}
+
+@media (max-width: 1024px) {
+  .activitiesEngenerale {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .activitiesProposer1 img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .activities {
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .activities h3 {
+    width: 90%;
+  }
+
+  .activitiesEngenerale {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .activitiesProposer1 img {
+    height: 200px;
+    width: 100%;
+  }
+
+  .elemenactivitie {
+    width: 100%;
+  }
+}
